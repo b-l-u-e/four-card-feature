@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+:root {
+  --red: hsl(0, 78%, 62%);
+  --Cyan: hsl(180, 62%, 55%);
+  --Orange: hsl(34, 97%, 64%);
+  --Blue: hsl(212, 86%, 64%);
+  --Dark-Blue: hsl(234, 12%, 34%);
+  --Grayish-Blue: hsl(229, 6%, 66%);
+  --Light-Gray: hsl(0, 0%, 98%);
+  --font-weight-light: 200;
+  --font-weight-reqular: 400;
+  --font-weight-semibold: 600;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+  font-size: 93.75%;
+  letter-spacing: 0.08rem;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+  margin-top: 3rem;
+  padding: 1rem 2rem;
+}
+
+.topheading {
+  font-size: 2rem;
+  font-weight: var(--font-weight-light);
+}
+
+.secondheading {
+  font-size: 2rem;
+  font-weight: var(--font-weight-reqular);
+  color: var(--Dark-Blue);
+}
+
+.feature-title {
+  color: var(--Dark-Blue);
+  font-weight: var(--font-weight-reqular);
+  font-size: 1rem;
+}
+
+.heading-paragraph {
+  color: var(--Grayish-Blue);
+  font-weight: var(--font-weight-reqular);
+  font-size: 0.8rem;
+  padding-top: 1rem;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.feature-box {
+  min-height: 12em;
+  max-width: 17rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: 0px 16px 20px var(--Grayish-Blue);
+  margin: 0 10px 30px;
+}
+
+.middle-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.supervisor {
+  padding: 10px;
+  border-top: 5px solid cyan;
+}
+
+.teambuilder {
+  padding: 10px;
+  border-top: 5px solid var(--red);
+}
+
+.karma {
+  padding: 10px;
+  border-top: 5px solid var(--Orange);
+}
+
+.calculator {
+  padding: 10px;
+  border-top: 5px solid var(--Blue);
+}
+
+.feature-image {
+  align-self: flex-end;
+}
+
+@media only screen and (max-width: 889px) {
+  .main-section {
+    display: flex;
+    flex-direction: column;
+  }
+}
