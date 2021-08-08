@@ -32,9 +32,7 @@ Users will be able to:
   ![](./desktop-view-solution.png)
 
 ### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [four-card-feature](https://four-card-feature-mmojkj7nr-b-l-u-e.vercel.app/)
 
 ## my-process
 
