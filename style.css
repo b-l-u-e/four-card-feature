@@ -62,6 +62,7 @@ body {
 
 .feature-paragraph{
    font-weight: var(--font-weight-semibold) !important;
+   font-size: 0.6rem !important;
 }
 
 .heading-paragraph {
@@ -79,8 +80,8 @@ body {
 }
 
 .feature-box {
-  min-height: 12em;
-  max-width: 17rem;
+  min-height: 14em;
+  max-width: 18rem;
   display: flex;
   flex-direction: column;
   border-radius: 5px;
@@ -118,6 +119,7 @@ body {
 
 .feature-image {
   align-self: flex-end;
+  width: 150px;
 }
 
 @media only screen and (max-width: 889px) {
