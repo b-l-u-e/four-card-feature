@@ -119,7 +119,6 @@ body {
 
 .feature-image {
   align-self: flex-end;
-  width: 150px;
 }
 
 @media only screen and (max-width: 889px) {
