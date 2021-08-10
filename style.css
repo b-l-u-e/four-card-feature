@@ -80,7 +80,7 @@ body {
 }
 
 .feature-box {
-  min-height: 14em;
+  min-height: 14rem;
   max-width: 18rem;
   display: flex;
   flex-direction: column;
