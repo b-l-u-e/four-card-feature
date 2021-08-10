@@ -56,8 +56,12 @@ body {
 
 .feature-title {
   color: var(--Dark-Blue);
-  font-weight: var(--font-weight-reqular);
+  font-weight: var(--font-weight-semibold);
   font-size: 1rem;
+}
+
+.feature-paragraph{
+   font-weight: var(--font-weight-semibold) !important;
 }
 
 .heading-paragraph {
@@ -80,9 +84,9 @@ body {
   display: flex;
   flex-direction: column;
   border-radius: 5px;
-  box-shadow: 0px 10px 10px var(--Grayish-Blue);
+  box-shadow: 0px 5px 5px var(--Grayish-Blue);
   margin: 0 10px 30px;
-  font-weight: var( --font-weight-semibold);
+  
 }
 
 .middle-section {
